@@ -178,6 +178,9 @@
       </Events>
     </Component>
     <Component class="javax.swing.JPasswordField" name="txtContrasenia">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtContraseniaActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JPasswordField" name="txtContrasenia2">
       <Events>
